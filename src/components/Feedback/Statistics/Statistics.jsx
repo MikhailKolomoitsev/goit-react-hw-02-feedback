@@ -26,7 +26,7 @@ const Statistics = ({ good, neutral, bad, total, positivePercentage }) => (
   </div>
 );
 
-Statistics.PropTypes = {
+Statistics.propTypes  = {
   good: PropTypes.number.isRequired,
   neutral: PropTypes.number.isRequired,
   bad: PropTypes.number.isRequired,

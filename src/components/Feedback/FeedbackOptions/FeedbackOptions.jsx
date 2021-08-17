@@ -19,7 +19,7 @@ const FeedbackOptions = ({ options, onLeaveFeedback }) => (
 );
 
 // eslint-disable-next-line react/no-typos
-FeedbackOptions.PropTypes = {
+FeedbackOptions.propTypes  = {
   options: PropTypes.array.isRequired,
   onLeaveFeedback: PropTypes.func.isRequired,
 };
