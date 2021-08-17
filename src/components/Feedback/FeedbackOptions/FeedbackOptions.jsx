@@ -1,6 +1,6 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { controls, button } from "./FeedbackOptions.module.css";
-import propTypes from "prop-types";
 
 const FeedbackOptions = ({ options, onLeaveFeedback }) => (
   <div className={controls}>
@@ -19,9 +19,9 @@ const FeedbackOptions = ({ options, onLeaveFeedback }) => (
 );
 
 // eslint-disable-next-line react/no-typos
-FeedbackOptions.propTypes = {
-  options: propTypes.array.isRequired,
-  onLeaveFeedback: propTypes.func.isRequired,
+FeedbackOptions.PropTypes = {
+  options: PropTypes.array.isRequired,
+  onLeaveFeedback: PropTypes.func.isRequired,
 };
 
 export default FeedbackOptions;
