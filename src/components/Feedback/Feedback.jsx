@@ -1,4 +1,4 @@
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 import styles from "./Feedback.module.css";
 import React, { Component } from "react";
 import FeedbackOptions from "./FeedbackOptions/FeedbackOptions";
